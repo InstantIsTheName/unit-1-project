@@ -33,8 +33,30 @@ a:hover {
 }
 
 .center {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    flex-direction: row;
+}
+
+nav a {
+    padding: 0 20px;
+}
+
+.button {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: blue;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: solid black;
 }
 
 @media (min-width: 576px) {
@@ -60,30 +82,5 @@ a:hover {
     }
 }
 
-.quote {
-    display: flex;
-    justify-content: center;
-    padding: 2% 0%;
-    font-size: 20px;
-    font-style: italic;
 
-}
-
-
-.img {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 50%;
-    height: auto;
-    margin: 0% 10%;
-    border: solid black;
-}
-
-
-.body {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    border: solid black;
-}
 
