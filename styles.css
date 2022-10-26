@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 
@@ -28,6 +27,7 @@ nav a {
     color: white;
     line-height: 30px;
     font-size: 22px;
+     text-decoration: none;
 }
 
 a:hover {
@@ -64,10 +64,6 @@ nav a {
     font-size: 20px;
     font-style: italic;
 
-}
-main {
-    display: flex;
-}
 
 .img {
     display: flex;
@@ -84,6 +80,7 @@ main {
     justify-content: flex-start;
     flex-wrap: wrap;
     border: solid black;
+<<<<<<< HEAD
     margin: 5% 25%;
 }
 
@@ -94,4 +91,6 @@ main {
         justify-content: space-around;
     }
 
+=======
+>>>>>>> c0f924c26e12d5b14a93d09b93eeba6eca717ead
 }
