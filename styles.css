@@ -24,7 +24,7 @@ nav a {
     color: white;
     line-height: 30px;
     font-size: 22px;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -37,26 +37,8 @@ a:hover {
     margin: 0 auto;
 }
 
-nav {
-    flex-direction: row;
-}
-
 nav a {
     padding: 0 20px;
-}
-
-.button {
-    border: 3px solid black;
-    border-radius: 20px;
-    padding: 0 10px;
-    background-color: blue;
-}
-
-.body {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    border: solid black;
 }
 
 @media (min-width: 576px) {
