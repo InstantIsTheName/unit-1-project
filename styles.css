@@ -5,6 +5,9 @@
     text-decoration: none;
 }
 
+
+/*--------------START OF HEADER EQUIPMENT----------------*/
+
 header {
     background-color: #a31b31;
     color: white;
@@ -33,32 +36,26 @@ a:hover {
 }
 
 .center {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-@media (min-width: 576px) {
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    nav {
-        flex-direction: row;
-    }
-
-    nav a {
-        padding: 0 20px;
-    }
-
-    .button {
-        border: 3px solid black;
-        border-radius: 20px;
-        padding: 0 10px;
-        background-color: blue;
-    }
+nav {
+    flex-direction: row;
 }
+
+nav a {
+    padding: 0 20px;
+}
+
+.button {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: blue;
+}
+
+/*--------------END OF HEADER EQUIPMENT----------------*/
 
 .quote {
     display: flex;
@@ -68,12 +65,14 @@ a:hover {
     font-style: italic;
 
 }
-
+main {
+    display: flex;
+}
 
 .img {
     display: flex;
     justify-content: flex-start;
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
     margin: 0% 10%;
     border: solid black;
@@ -86,4 +85,13 @@ a:hover {
     flex-wrap: wrap;
     border: solid black;
     margin: 5% 25%;
+}
+
+@media (min-width: 576px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
 }
