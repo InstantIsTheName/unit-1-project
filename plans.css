@@ -1,20 +1,19 @@
+.title {
+    padding-top: 20px;
+}
 .centered {
     text-align: center;
 }
 
 .box-container {
     border: 1px solid black;
-    margin: 0 20px;
+    margin:  20px;
     padding: 20px;
 }
 .container-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-img {
-    width: 12rem;
 }
 
 .info {
@@ -37,6 +36,7 @@ ul {
 .container-3 {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .container-3 a {
@@ -52,4 +52,26 @@ ul {
 .container-4 button a {
     text-decoration: none;
     color: black;
+}
+
+.logo2 {
+    width: 12rem;
+}
+
+.logo3 {
+    width: 10rem;
+}
+
+.logo4 {
+    width: 8rem;
+}
+
+@media (min-width: 576px) {
+    .box-container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .sec-1, .sec-2, .sec-3 {
+        margin-top: 20px;
+    }
 }
