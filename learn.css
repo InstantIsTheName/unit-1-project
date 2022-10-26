@@ -1,8 +1,25 @@
+p3{
+    
+}
+
 .pg3{
     padding: 15px;
     display: flex;
     justify-content: center;  
 }
 .infopage{
-    padding: 15px;
+    padding: 20px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.carousel-item {
+    display: none;
+    position: relative;
+    transition: .2s ease-in-out left;
+}
+#carousel{
+    padding: 20px;
+}
+article{
+    border:1px solid black;
 }
