@@ -17,23 +17,36 @@
 }
 
 main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: block;
+    padding: 0% 18%;
 }
-
 .img {
-    max-width: 70%;
     height: auto;
-    margin: 20% 20%;
+    max-width: 200%;
+    margin-bottom: 5%;
     border: solid black;
 }
-
 
 .body {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     border: solid black;
-    margin-left: 30;
+    padding: 5% 2%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding: 2% 2%;
+}
+
+@media (max-width: 576px) {
+    .img {
+        max-width: 100%;
+    }
 }
