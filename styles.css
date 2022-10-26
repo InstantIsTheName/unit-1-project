@@ -37,6 +37,35 @@ a:hover {
   margin: 0 auto;
 }
 
+.centered {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50%;
+    height: auto;
+    margin: 0% 10%;
+    border: solid black;
+}
+
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
 @media (min-width: 576px) {
     header {
         display: flex;
@@ -60,29 +89,3 @@ a:hover {
     }
 }
 
-.quote {
-    display: flex;
-    justify-content: center;
-    padding: 2% 0%;
-    font-size: 20px;
-    font-style: italic;
-
-}
-
-
-.img {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 50%;
-    height: auto;
-    margin: 0% 10%;
-    border: solid black;
-}
-
-
-.body {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    border: solid black;
-}
