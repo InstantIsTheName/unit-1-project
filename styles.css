@@ -33,29 +33,23 @@ a:hover {
 }
 
 .center {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.centered {
-    text-align: center;
+nav {
+    flex-direction: row;
 }
 
-.quote {
-    display: flex;
-    justify-content: center;
-    padding: 2% 0%;
-    font-size: 20px;
-    font-style: italic;
+nav a {
+    padding: 0 20px;
 }
 
-.img {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 50%;
-    height: auto;
-    margin: 0% 10%;
-    border: solid black;
+.button {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: blue;
 }
 
 .body {
