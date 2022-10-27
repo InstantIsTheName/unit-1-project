@@ -1,5 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    background: #141E30;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    background: linear-gradient(-45deg, #1f21ac, #8ba4d3);
+}
+
 .title {
     padding-top: 20px;
+    font-size: 48px;
+    color: #007eb3;
 }
 
 .centered {
@@ -8,8 +20,10 @@
 
 .box-container {
     border: 1px solid black;
+    border-radius: 20px;
     margin: 20px;
     padding: 20px;
+    background-color: #c4ebf7;
 }
 
 .container-1 {
@@ -19,7 +33,7 @@
 }
 
 .info {
-    padding: 10px 0;
+    padding: 20px 0 10px;
 }
 
 .container-2 {
@@ -32,7 +46,7 @@
 }
 
 ul {
-    flex-basis: 200px;
+    flex-basis: 225px;
 }
 
 .container-3 {
@@ -55,6 +69,8 @@ ul {
 .container-4 button a {
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .logo2 {
@@ -76,9 +92,20 @@ h4 {
     font-size: 22px;
 }
 
+.g-button {
+    background-color: #de3545;
+    border-radius: 8px;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.g-button:hover {
+    opacity: .75;
+}
+
 @media (min-width: 576px) {
     .box-container {
-        max-width: 750px;
+        max-width: 850px;
         margin: 0 auto;
     }
 
@@ -89,7 +116,7 @@ h4 {
     }
 
     ul {
-        flex-basis: 320px;
+        flex-basis: 380px;
     }
 
     .logo2 {
@@ -97,10 +124,18 @@ h4 {
     }
 
     .logo3 {
-        width: 12rem;
+        width: 15rem;
     }
 
     .logo4 {
         width: 10rem;
+    }
+
+    .info {
+        padding: 20px 20px 10px 20px;
+    }
+    
+    h4 {
+        padding-left: 10px;
     }
 }
