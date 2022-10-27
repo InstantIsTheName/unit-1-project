@@ -11,9 +11,7 @@
     font-family: sans-serif;
 }
 .carousel-item {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+   margin: 20px;
 }
 #carousel{
     padding: 20px;
@@ -22,12 +20,13 @@ article{
     border:1px solid black;
 }
 .pg3{
+    margin-top: 5px;
    text-align: center;
 }
 
-.d-block w-80 {
-    width: 50%;
-    height:50%;
+.d-block{
+    max-width:300px;
+    max-height:200px;
 }
 
 
