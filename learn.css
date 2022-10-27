@@ -1,2 +1,8 @@
-   
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; 
+    line-height: 45px;
+}
 
