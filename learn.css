@@ -1,21 +1,19 @@
-p3{
-    
+* {
+    box-sizing: border-box;
+    margin: auto;
 }
 
-.pg3{
-    padding: 15px;
-    display: flex;
-    justify-content: center;  
-}
+
+
 .infopage{
     padding: 20px;
-    margin: auto;
+    margin: 20px;
     font-family: sans-serif;
 }
 .carousel-item {
-    display: none;
-    position: relative;
-    transition: .2s ease-in-out left;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 #carousel{
     padding: 20px;
@@ -23,3 +21,13 @@ p3{
 article{
     border:1px solid black;
 }
+.pg3{
+   text-align: center;
+}
+
+.d-block w-80 {
+    width: 50%;
+    height:50%;
+}
+
+
