@@ -11,7 +11,7 @@ main {
 .title {
     padding-top: 20px;
     font-size: 48px;
-    color: #007eb3;
+    color: #e8dd13;
 }
 
 .centered {
@@ -68,7 +68,7 @@ ul {
 
 .container-4 button a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -85,10 +85,7 @@ ul {
     width: 8rem;
 }
 
-span,
-p,
-li,
-h4 {
+span, p, li, h4 {
     font-size: 22px;
 }
 
@@ -101,6 +98,13 @@ h4 {
 
 .g-button:hover {
     opacity: .75;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding: 2% 2%;
 }
 
 @media (min-width: 576px) {
