@@ -12,7 +12,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: black; /* Background Color */
+    background: black;
+    /* Background Color */
     animation: changeColor 5s linear infinite;
 }
 
@@ -22,13 +23,13 @@ h2 {
     font-weight: 300;
     letter-spacing: 10px
 }
+
 @keyframes changeColor {
-    0%
-    {
+    0% {
         filter: hue-rotate(0deg);
     }
-    100%
-     {
+
+    100% {
         filter: hue-rotate(360deg);
     }
 }
@@ -50,7 +51,7 @@ h2 {
         0 0 60px #00ff0a,
         0 0 80px #00ff0a,
         0 0 100px #00ff0a;
-        margin: 20px 10px;
+    margin: 20px 10px;
     transform: scale(0.1);
     border-radius: 50%;
     animation: animateDot 2s linear infinite;
@@ -76,5 +77,5 @@ h2 {
     50%,
     100% {
         transform: scale(0.1);
-}
+    }
 }

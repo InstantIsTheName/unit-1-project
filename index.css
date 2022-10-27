@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #6b6e77;
+    background: #white;
 }
 .centered {
     text-align: center;
@@ -18,7 +18,7 @@ body {
     font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
-    color: white
+    color: black;
     
 }
 
@@ -42,7 +42,7 @@ main {
     margin-bottom: 5%;
     font-family: sans-serif;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 footer {
