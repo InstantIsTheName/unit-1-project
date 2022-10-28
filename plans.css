@@ -1,11 +1,9 @@
 body {
     font-family: sans-serif;
-}
-
-main {
+    height: auto;
     background: #141E30;
-    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
     background: linear-gradient(-45deg, #1f21ac, #8ba4d3);
+    line-height: 1.5;
 }
 
 .title {
@@ -39,6 +37,7 @@ main {
 .container-2 {
     display: flex;
     justify-content: space-around;
+    line-height: 2;
 }
 
 .container-2 ul li {
@@ -71,6 +70,7 @@ ul {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .logo2 {
@@ -85,15 +85,18 @@ ul {
     width: 8rem;
 }
 
-span, p, li, h4 {
+span,
+p,
+li,
+h4 {
     font-size: 22px;
 }
 
 .g-button {
     background-color: #de3545;
     border-radius: 8px;
-    width: 8rem;
-    height: 2.5rem;
+    width: 12rem;
+    height: 3rem;
 }
 
 .g-button:hover {
@@ -102,9 +105,60 @@ span, p, li, h4 {
 
 footer {
     display: flex;
-    justify-content: flex-end;
-    background-color: grey;
-    padding: 2% 2%;
+    justify-content: center;
+    background-color: #a31b31;
+    padding: 25px 25px;
+    margin-top: 25px;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 33px;
+        padding: 10px;
+    }
+
+    .box-container {
+        margin: 0 10px 10px;
+    }
+
+    .info {
+        padding: 10px 0 10px;
+    }
+
+    span,
+    p,
+    li,
+    h4,
+    .container-3 a {
+        font-size: 18px;
+    }
+    
+    .container-4 button a {
+        font-size:15px;
+    }
+
+    .container-2,
+    .container-1 {
+        flex-direction: column;
+    }
+
+    ul {
+        flex: auto;
+        margin: 8px 20px;
+    }
+
+    .g-button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .container-4 {
+        padding: 10px 0 5px 0;
+    }
+    footer {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -138,8 +192,11 @@ footer {
     .info {
         padding: 20px 20px 10px 20px;
     }
-    
+
     h4 {
         padding-left: 10px;
+    }
+    footer {
+        justify-content: flex-end;
     }
 }
