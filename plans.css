@@ -2,8 +2,8 @@ body {
     font-family: sans-serif;
     height: auto;
     background: #141E30;
-    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
     background: linear-gradient(-45deg, #1f21ac, #8ba4d3);
+    line-height: 1.5;
 }
 
 .title {
@@ -69,6 +69,7 @@ ul {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .logo2 {
@@ -90,8 +91,8 @@ span, p, li, h4 {
 .g-button {
     background-color: #de3545;
     border-radius: 8px;
-    width: 8rem;
-    height: 2.5rem;
+    width: 12rem;
+    height: 3rem;
 }
 
 .g-button:hover {
@@ -101,9 +102,10 @@ span, p, li, h4 {
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
+    background-color: #a31b31;
     padding: 25px 25px;
     margin-top: 25px;
+    color: white;
 }
 
 
