@@ -33,6 +33,10 @@ body {
     padding-top: 15px;
 }
 
+.container-1 a {
+    color: black;
+}
+
 .info {
     padding: 20px 0 10px;
 }
@@ -88,7 +92,7 @@ ul {
     width: 8rem;
 }
 
-span,
+.container-1 a,
 p,
 li,
 h4 {
@@ -129,7 +133,7 @@ footer {
         padding: 10px 0 10px;
     }
 
-    span,
+    .container-1 a,
     p,
     li,
     h4,
