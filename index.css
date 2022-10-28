@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #white;
+    background: #b5d0e0;
 }
 .centered {
     text-align: center;
@@ -24,7 +24,7 @@ body {
 
 main {
     display: block;
-    padding: 0% 18%;
+    padding: 0% 18.5%;
 }
 .img {
     height: auto;
