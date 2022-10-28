@@ -6,6 +6,7 @@ body {
     line-height: 1.5;
 }
 
+
 .title {
     padding-top: 20px;
     font-size: 48px;
@@ -22,12 +23,14 @@ body {
     margin: 20px;
     padding: 20px;
     background-color: #c4ebf7;
+    box-shadow: var(--config-prm-product-card-box-shadow);
 }
 
 .container-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 15px;
 }
 
 .info {
@@ -162,6 +165,9 @@ footer {
 }
 
 @media (min-width: 576px) {
+    main {
+        margin: 0 25px;
+    }
     .box-container {
         max-width: 850px;
         margin: 0 auto;
