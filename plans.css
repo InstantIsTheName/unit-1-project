@@ -1,19 +1,32 @@
 body {
     font-family: sans-serif;
     height: auto;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-image: linear-gradient(
+  180deg,
+  hsl(240deg 76% 46%) 0%,
+  hsl(298deg 83% 47%) 33%,
+  hsl(357deg 91% 49%) 67%,
+  hsl(55deg 100% 50%) 100%
+);
     line-height: 1.5;
 }
 
-
 .title {
     padding-top: 20px;
-    font-size: 48px;
-    color: #e8dd13;
+    font-size: 45px;
+    color: white;
+    line-height: 1.2;
 }
 
+.sec-0 {
+    padding-top: 10px;
+}
+.sec-0, .sec-0 ul li a{
+    color: white;
+}
+.sec-0 ul li a:hover{
+    color: red;
+}    
 .centered {
     text-align: center;
 }
@@ -180,7 +193,13 @@ footer {
     .box-container {
         max-width: 850px;
         margin: 0 auto;
-        box-shadow: 0.50rem 0.50rem 10px #10c389;
+        /*box-shadow: 0.50rem 0.50rem 10px #10c389;*/
+    }
+    
+    .sec-0 {
+        max-width: 524px;
+        margin: 0 auto;
+        padding-top: 15px;
     }
 
     .sec-1,
