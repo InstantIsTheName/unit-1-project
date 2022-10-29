@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 7% 0%;
+}
+
+.vinny {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: solid black;
+    margin-right: 60%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.natalie {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: solid black;
+    margin-right: 5%;
+    margin-left: 60%;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.nayan {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: solid black;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding: 2%;
+}
