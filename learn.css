@@ -16,22 +16,20 @@
     width: 100%;
     height: 300px;
 }
+article{
+    background-color:#c4ebf7;
+    border:1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
 
 @media (min-width:500px){
 .d-block{
-    width: 100%;
+   
     height: 500px;
 }
 article{
-  max-width: 900px;  
-}
-}
-  article{
-      
-      padding: 20px;
-}
-.carousel-item {
-display: none;
+  max-width:900px; 
 }
 footer {
     display: flex;
@@ -43,11 +41,12 @@ footer {
 .carousel-control-next-icon{
     background-color: red;
     }
-.carousel-control-next-icon{
+.carousel-control-prev-icon{
     background-color: red;
 }
 @media (max-width: 500px){
 footer {
     margin-top: 10px;
 }
-    
+}
+   
