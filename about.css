@@ -21,6 +21,15 @@
     padding: 2%;
 }
 
+.vinny2 {
+    display: flex;
+    max-width: 100px;
+    height: auto;
+    margin: 0% 50%;
+    
+    
+}
+
 .natalie {
     display: flex;
     justify-content: flex-start;
