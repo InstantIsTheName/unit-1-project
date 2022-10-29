@@ -11,23 +11,39 @@
     margin: 7% 0%;
 }
 
+.sec1 {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 .vinny {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     border: solid black;
-    margin-right: 60%;
-    margin-left: 5%;
+    margin-right: 30%;
+    margin-left: 10%;
+    margin-top: 10%;
     padding: 2%;
 }
 
 .vinny2 {
-    display: flex;
-    max-width: 100px;
-    height: auto;
-    margin: 0% 50%;
+    width: 20rem;
+    border: solid black;
     
     
+}
+
+.sec2 {
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .natalie {
@@ -35,10 +51,24 @@
     justify-content: flex-start;
     flex-direction: column;
     border: solid black;
-    margin-right: 5%;
-    margin-left: 60%;
+    margin-right: 10%;
+    margin-left: 30%;
     margin-top: 10%;
     padding: 2%;
+}
+
+.nat2 {
+    width: 18rem;
+    border: solid black;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .nayan {
@@ -46,12 +76,22 @@
     justify-content: flex-start;
     flex-direction: column;
     border: solid black;
-    margin-right: 60%;
-    margin-left: 5%;
+    margin-right: 30%;
+    margin-left: 10%;
     margin-top: 10%;
     padding: 2%;
 }
 
 .nayan2 {
-    width: 50rem;
+    width: 25rem;
+    margin-top: 25%;
+    border: solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #a31b31;
+    padding: 2% 2%;
+    color: white;
 }
