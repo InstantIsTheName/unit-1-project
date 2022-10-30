@@ -24,13 +24,15 @@ article{
     margin-bottom: 10px;
 }
 
-@media (min-width:500px){
+@media (min-width:400px)
+{
 .d-block{
    
     height: 500px;
 }
 article{
   max-width:900px; 
+}
 }
 footer {
     display: flex;
@@ -49,5 +51,9 @@ footer {
 footer {
     margin-top: 10px;
 }
+.text{
+    text-align: center;
 }
+}
+
    
