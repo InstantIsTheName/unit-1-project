@@ -73,6 +73,7 @@ body {
 
 ul {
     flex-basis: 225px;
+    padding: 5px 10px;
 }
 
 .container-3 {
@@ -173,7 +174,6 @@ footer {
     ul {
         line-height: 1.5;
         flex: auto;
-        margin: 8px 20px;
     }
 
     .g-button {
