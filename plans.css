@@ -1,13 +1,10 @@
 body {
     font-family: sans-serif;
     height: auto;
-    background-image: linear-gradient(
-  180deg,
-  hsl(240deg 76% 46%) 0%,
-  hsl(298deg 83% 47%) 33%,
-  hsl(357deg 91% 49%) 67%,
-  hsl(55deg 100% 50%) 100%
-);
+    background-image: linear-gradient(180deg,
+            hsl(240deg 76% 46%) 0%,
+            hsl(298deg 83% 47%) 33%,
+            hsl(240deg 76% 46%) 100%);
     line-height: 1.5;
 }
 
@@ -21,12 +18,16 @@ body {
 .sec-0 {
     padding-top: 10px;
 }
-.sec-0, .sec-0 ul li a{
+
+.sec-0,
+.sec-0 ul li a {
     color: white;
 }
-.sec-0 ul li a:hover{
+
+.sec-0 ul li a:hover {
     color: red;
-}    
+}
+
 .centered {
     text-align: center;
 }
@@ -39,7 +40,8 @@ body {
     background-color: #c4ebf7;
 }
 
-.container-1 a:hover, .container-3 a:hover {
+.container-1 a:hover,
+.container-3 a:hover {
     color: blue;
 }
 
@@ -158,9 +160,9 @@ footer {
     .container-3 a {
         font-size: 18px;
     }
-    
+
     .container-4 button a {
-        font-size:15px;
+        font-size: 15px;
     }
 
     .container-2,
@@ -169,6 +171,7 @@ footer {
     }
 
     ul {
+        line-height: 1.5;
         flex: auto;
         margin: 8px 20px;
     }
@@ -181,6 +184,7 @@ footer {
     .container-4 {
         padding: 10px 0 5px 0;
     }
+
     footer {
         margin-top: 10px;
     }
@@ -190,16 +194,20 @@ footer {
     main {
         margin: 0 25px;
     }
+
     .box-container {
         max-width: 850px;
         margin: 0 auto;
         /*box-shadow: 0.50rem 0.50rem 10px #10c389;*/
     }
-    
+
     .sec-0 {
         max-width: 524px;
         margin: 0 auto;
         padding-top: 15px;
+    }
+    .sec-0 ul li {
+        font-size: 22px;
     }
 
     .sec-1,
@@ -209,7 +217,11 @@ footer {
     }
 
     ul {
-        flex-basis: 380px;
+        flex-basis: 260px;
+    }
+
+    .ul-2 {
+        margin-right: 20px;
     }
 
     .logo2 {
@@ -231,7 +243,24 @@ footer {
     h4 {
         padding-left: 10px;
     }
+
     footer {
         justify-content: flex-end;
     }
+}
+
+
+@media (min-width: 700px) {
+    ul {
+        flex-basis: 380px;
+    }
+}
+
+@media (min-width: 501px) {
+    .container-1 a,
+p,
+li,
+h4 {
+    font-size: 20px;
+}
 }
