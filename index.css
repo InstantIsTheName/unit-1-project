@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background: #b5d0e0;
+    background-image: linear-gradient( to right, #8fb9ab, #a6c1d6);
 }
 .centered {
     text-align: center;
@@ -38,18 +39,22 @@ main {
     justify-content: flex-start;
     flex-wrap: wrap;
     border: solid black;
-    padding: 5% 2%;
+    padding: 5% 3%;
+    margin-left: 1%;
     margin-bottom: 5%;
     font-family: sans-serif;
     font-weight: bold;
+    border-radius: 25px;
     color: black;
+    background: white;
 }
 
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
+    background-color: #a31b31;
     padding: 2% 2%;
+    color: white;
 }
 
 @media (max-width: 576px) {
