@@ -64,7 +64,7 @@ body {
 .container-2 {
     display: flex;
     justify-content: space-around;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .container-2 ul li {
@@ -73,7 +73,6 @@ body {
 
 ul {
     flex-basis: 225px;
-    padding: 5px 10px;
 }
 
 .container-3 {
@@ -140,7 +139,7 @@ footer {
     color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .title {
         font-size: 33px;
         padding: 10px;
@@ -206,6 +205,7 @@ footer {
         margin: 0 auto;
         padding-top: 15px;
     }
+
     .sec-0 ul li {
         font-size: 22px;
     }
@@ -254,13 +254,4 @@ footer {
     ul {
         flex-basis: 380px;
     }
-}
-
-@media (min-width: 501px) {
-    .container-1 a,
-p,
-li,
-h4 {
-    font-size: 20px;
-}
 }
